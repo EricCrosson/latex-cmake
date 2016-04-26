@@ -6,7 +6,7 @@ This project provides a [docker] container encapsulating a [LaTeX] & [cmake]
 build environment.
 
 
-This package uses [tianon/latex] as a base.
+This container uses [tianon/latex] as a base.
 
 
   [docker]: https://www.docker.com/
