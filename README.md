@@ -12,5 +12,5 @@ This container uses [tianon/latex] as a base.
   [docker]: https://www.docker.com/
   [LaTeX]: https://www.latex-project.org/
   [cmake]: https://cmake.org/
-  [dockerbadge]: http://dockeri.co/image/hamroctopus/spin
+  [dockerbadge]: http://dockeri.co/image/hamroctopus/latex-cmake
   [tianon/latex]: https://hub.docker.com/r/tianon/latex/
