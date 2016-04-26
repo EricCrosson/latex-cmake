@@ -5,6 +5,14 @@ Overview
 This project provides a [docker] container encapsulating a [LaTeX] & [cmake]
 build environment.
 
+The following packages are included
+
+-    make 4.0
+-    cmake 3.4.0
+-    gcc 4.9.2
+-    g++ 4.9.2
+-    curl 7.38.0
+
 
 This container uses [tianon/latex] as a base.
 
