@@ -3,7 +3,6 @@ MAINTAINER Eric Crosson (eric.s.crosson@utexas.edu)
 
 RUN apt-get update -qq && apt-get install -qq -y \
     build-essential \
-    cmake \
     make \
     g++ \
     curl
