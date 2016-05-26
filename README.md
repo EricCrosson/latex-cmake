@@ -1,6 +1,7 @@
 Overview
 ========
 ![Available via dockerhub][dockerbadge]
+[![](https://imagelayers.io/badge/hamroctopus/latex-cmake:latest.svg)](https://imagelayers.io/?images=hamroctopus/latex-cmake:latest 'Get your own badge on imagelayers.io')
 
 This project provides a [docker] container encapsulating a [LaTeX] & [cmake]
 build environment.
