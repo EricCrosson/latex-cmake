@@ -1,0 +1,71 @@
+Overview
+========
+
+.. image:: https://imagelayers.io/badge/hamroctopus/latex-cmake:latest.svg
+   :target: https://imagelayers.io/?images=hamroctopus/latex-cmake:latest
+.. image:: https://img.shields.io/badge/docker-ready-blue.svg
+   :target: https://hub.docker.com/r/hamroctopus/confluent-python/
+.. image:: https://img.shields.io/docker/pulls/hamroctopus/confluent-python.svg?maxAge=2592000
+   :target: https://hub.docker.com/r/hamroctopus/confluent-python/
+.. image:: https://img.shields.io/docker/stars/hamroctopus/confluent-python.svg?maxAge=2592000
+   :target: https://hub.docker.com/r/hamroctopus/confluent-python/
+
+This project provides a `docker <https://www.docker.com/>`__ container
+encapsulating a `LaTeX <https://www.latex-project.org/>`__ and
+`cmake <https://cmake.org/>`__ build environment.
+
+
+Provenance
+----------
+
+This container uses `tianon/latex <https://hub.docker.com/r/tianon/latex/>`__ as
+a base.
+
+
+Contents
+--------
+
+This image contains the following packages
+
+-  cmake 3.4.0
+-  make 4.0
+-  poppler-utils 0.26.5-2+deb8u1
+-  gcc 4.9.2
+-  curl 7.38.0a-4+deb8u3
+
+
+Use
+---
+
+There are two use cases for this docker container, autopilot and manual control.
+Both require mounting your directory with latex sources as :code:`/data` in the
+container.
+
+Autopilot
+~~~~~~~~~
+
+Invoking this container without arguments will run the standard cmake build
+routine, i.e.
+
+.. code:: bash
+
+   docker run -v $(pwd):/data hamroctopus/latex-cmake
+
+will tell the container to mount the current directory and execute the following
+
+.. code:: bash
+
+   mkdir build
+   cd build
+   cmake ..
+   make
+
+Manual
+~~~~~~
+
+If your build pattern deviates from the above, pass your custom instructions as
+arguments
+
+.. code:: bash
+
+   docker run -v $(pwd):/data hamroctopus/latex-cmake step1 && step2 && step3
