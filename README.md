@@ -32,21 +32,21 @@ Use
 
 There are two use cases for this docker container, autopilot and manual
 control. Both require mounting your directory with latex sources as
-`/data`{.sourceCode} in the container.
+`/data` in the container.
 
 ### Autopilot
 
 Invoking this container without arguments will run the standard cmake
 build routine, i.e.
 
-``` {.sourceCode .bash}
+``` bash
 docker run -v $(pwd):/data hamroctopus/latex-cmake
 ```
 
 will tell the container to mount the current directory and execute the
 following
 
-``` {.sourceCode .bash}
+``` bash
 mkdir build
 cd build
 cmake ..
@@ -58,6 +58,6 @@ make
 If your build pattern deviates from the above, pass your custom
 instructions as arguments
 
-``` {.sourceCode .bash}
+``` bash
 docker run -v $(pwd):/data hamroctopus/latex-cmake step1 && step2 && step3
 ```
