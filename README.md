@@ -2,9 +2,9 @@ Overview
 ========
 
 [![image](https://imagelayers.io/badge/hamroctopus/latex-cmake:latest.svg)](https://imagelayers.io/?images=hamroctopus/latex-cmake:latest)
-[![image](https://img.shields.io/badge/docker-ready-blue.svg)](https://hub.docker.com/r/hamroctopus/confluent-python/)
-[![image](https://img.shields.io/docker/pulls/hamroctopus/confluent-python.svg?maxAge=2592000)](https://hub.docker.com/r/hamroctopus/confluent-python/)
-[![image](https://img.shields.io/docker/stars/hamroctopus/confluent-python.svg?maxAge=2592000)](https://hub.docker.com/r/hamroctopus/confluent-python/)
+[![image](https://img.shields.io/badge/docker-ready-blue.svg)](https://hub.docker.com/r/hamroctopus/latex-cmake/)
+[![image](https://img.shields.io/docker/pulls/hamroctopus/latex-cmake.svg?maxAge=2592000)](https://hub.docker.com/r/hamroctopus/latex-cmake/)
+[![image](https://img.shields.io/docker/stars/hamroctopus/latex-cmake.svg?maxAge=2592000)](https://hub.docker.com/r/hamroctopus/latex-cmake/)
 
 This project provides a [docker](https://www.docker.com/) container
 encapsulating a [LaTeX](https://www.latex-project.org/) and
