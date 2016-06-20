@@ -1,6 +1,6 @@
 Overview
 ========
-
+[![Build Status](https://travis-ci.org/EricCrosson/latex-cmake.svg?branch=travis-ci)](https://travis-ci.org/EricCrosson/latex-cmake)
 [![image](https://imagelayers.io/badge/hamroctopus/latex-cmake:latest.svg)](https://imagelayers.io/?images=hamroctopus/latex-cmake:latest)
 [![image](https://img.shields.io/badge/docker-ready-blue.svg)](https://hub.docker.com/r/hamroctopus/latex-cmake/)
 [![image](https://img.shields.io/docker/pulls/hamroctopus/latex-cmake.svg?maxAge=2592000)](https://hub.docker.com/r/hamroctopus/latex-cmake/)
