@@ -40,7 +40,7 @@ Invoking this container without arguments will run the standard cmake
 build routine, i.e.
 
 ``` bash
-docker run -v $(pwd):/data hamroctopus/latex-cmake
+docker run -v $(pwd):/data hamroctopus/latex-cmake:3.4.0
 ```
 
 will tell the container to mount the current directory and execute the
@@ -59,5 +59,5 @@ If your build pattern deviates from the above, pass your custom
 instructions as arguments
 
 ``` bash
-docker run -v $(pwd):/data hamroctopus/latex-cmake step1 && step2 && step3
+docker run -v $(pwd):/data hamroctopus/latex-cmake:3.4.0 step1 && step2 && step3
 ```
