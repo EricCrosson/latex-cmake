@@ -1,4 +1,4 @@
-FROM tianon/latex
+FROM tianon/latex:latest
 
 MAINTAINER Eric Crosson (eric.s.crosson@utexas.edu)
 

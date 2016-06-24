@@ -1,0 +1,13 @@
+---
+language: python
+python:
+  - 2.7
+
+services:
+  - docker
+
+install:
+  - docker build -t latex-cmake .
+
+script:
+  - docker run -it latex-cmake "latex --version && cmake --version"

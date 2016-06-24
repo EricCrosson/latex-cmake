@@ -1,6 +1,6 @@
 Overview
 ========
-
+[![Build Status](https://travis-ci.org/EricCrosson/latex-cmake.svg?branch=travis-ci)](https://travis-ci.org/EricCrosson/latex-cmake)
 [![image](https://imagelayers.io/badge/hamroctopus/latex-cmake:latest.svg)](https://imagelayers.io/?images=hamroctopus/latex-cmake:latest)
 [![image](https://img.shields.io/badge/docker-ready-blue.svg)](https://hub.docker.com/r/hamroctopus/latex-cmake/)
 [![image](https://img.shields.io/docker/pulls/hamroctopus/latex-cmake.svg?maxAge=2592000)](https://hub.docker.com/r/hamroctopus/latex-cmake/)
@@ -40,7 +40,7 @@ Invoking this container without arguments will run the standard cmake
 build routine, i.e.
 
 ``` bash
-docker run -v $(pwd):/data hamroctopus/latex-cmake
+docker run -v $(pwd):/data hamroctopus/latex-cmake:3.4.0
 ```
 
 will tell the container to mount the current directory and execute the
@@ -59,5 +59,5 @@ If your build pattern deviates from the above, pass your custom
 instructions as arguments
 
 ``` bash
-docker run -v $(pwd):/data hamroctopus/latex-cmake step1 && step2 && step3
+docker run -v $(pwd):/data hamroctopus/latex-cmake:3.4.0 step1 && step2 && step3
 ```
